@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #121a27;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: transparent;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+.about1 h2 {
+  color:#00abf0 ;
+}
+.about1 p {
+  color: white;
+}
+.projects h2 {
+  color: #00abf0;
+}
+.projects li {
+  color: #ffffff;
+}
+.about h2{
+   color: #00abf0;
+}
+.about p{
+   color: #ffffff;
+}
+nav a {
+  color: #fff;  
+  margin: 0 15px;
+  text-decoration: none;
+}
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  position: relative;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  background: #fff;
+  color: #333;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.skill-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.skill-item {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.nav a{
+  color: #00abf0;
+}
+
+.skill-item:hover {
+  transform: translateY(-5px);
+}
+
+.skill-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: transparent;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  gap: 30px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.banner .about-photo {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.about-text {
+  max-width: 600px;
+}
+
+.about-text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+#skills h2 {
+  color: #00abf0;
+}
+
+.about-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #00abf0;
+}
+#contact {
+  height: 100%;
+  background: #121a27;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 72px 24px;
+}
+
+#contact h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  color:  #00abf0;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  background: 	#1f2a3c;
+  width: 100%;
+  height: auto;
+  border: 1px solid 	#1f2a3c;
+  padding: 24px;
+}
+
+.form-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  border: 1px solid #e1e0e0;
+  border-radius: 6px;
+  padding: 8px 14px;
+}
+
+.form-group textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100px;
+}
+
+.fullname {
+  display: flex;
+  gap: 10px;
+}
+.form-container {
+  display: flex;
+  align-items: stretch; 
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.form-image {
+  flex: 1;
+  max-width: 500px;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.form-image img {
+  height: 100%;
+  max-height: 100%;
+  width: auto;
+  object-fit: contain; 
+  border-radius: 10px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+ 
+}
+
+form {
+  flex: 1;
+  max-width: 500px;
+  background-color: white;
+  padding: 20px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+textarea {
+  background-color: #1e293b; 
+  color: #ffffff;
+}
+input {
+  background-color: #1e293b; 
+}
+input:focus {
+  color: #ffffff; 
+  border-color: #f87171;
+  outline: none;
+}
+textarea:focus {
+  color: #ffffff; 
+  border-color: #f87171;
+  outline: none;
+}
+.message {
+  font-size: 35px;
+}
